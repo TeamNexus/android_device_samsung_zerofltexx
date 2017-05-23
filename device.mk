@@ -19,9 +19,5 @@ LOCAL_PATH := device/samsung/zerofltexx
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Carrier init
-PRODUCT_PACKAGES += \
-    init.carrier.rc
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
