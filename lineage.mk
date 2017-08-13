@@ -14,8 +14,8 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/nexus/product.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="Galaxy S6" \
-    TARGET_DEVICE="Galaxy S6"
+    PRODUCT_NAME="zerofltexx" \
+    TARGET_DEVICE="zeroflte"
 
 PRODUCT_NAME := lineage_zerofltexx
 PRODUCT_DEVICE := zerofltexx
