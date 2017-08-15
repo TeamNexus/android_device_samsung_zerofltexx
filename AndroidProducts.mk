@@ -1,10 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_zerofltexx.mk
-
-ifneq ($(AOKP_VERSION),)
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aokp.mk
-else
-PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage.mk
-endif
+    $(LOCAL_DIR)/full_zerofltexx.mk \
+    $(LOCAL_DIR)/aokp.mk \
+    $(LOCAL_DIR)/lineage.mk \
+    $(LOCAL_DIR)/omni_zerofltexx.mk
