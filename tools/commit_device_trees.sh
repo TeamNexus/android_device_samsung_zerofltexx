@@ -34,5 +34,5 @@ for devtree in "${SAM_DEVICES}"/zero[f,l]*; do
 
 	git -C "${devtree}" add --all .
 	git -C "${devtree}" commit -am "${devname}: ${COMMIT_MSG}"
-	git -C "${devtree}" push github HEAD:${BRANCH}
+	git -C "${devtree}" push https://github.com/TeamNexus/android_device_samsung_${devname} HEAD:${BRANCH}
 done
