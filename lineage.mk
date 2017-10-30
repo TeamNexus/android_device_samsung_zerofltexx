@@ -10,9 +10,6 @@ TARGET_SCREEN_WIDTH := 1440
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit properties for TeamNexus-bases ROMs
-$(call inherit-product, vendor/nexus/product.mk)
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="zerofltexx" \
     TARGET_DEVICE="zeroflte"
