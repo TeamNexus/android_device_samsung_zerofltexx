@@ -1,9 +1,6 @@
 # Initialise device config
 $(call inherit-product, device/samsung/zerofltexx/full_zerofltexx.mk)
 
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
-
 # Enhanced NFC
 # $(call inherit-product, vendor/gzosp/config/nfc_enhanced.mk)
 
