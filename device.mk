@@ -19,8 +19,5 @@ LOCAL_PATH := device/samsung/zerofltexx
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Inherit semi-common blobs
-$(call inherit-product, vendor/samsung/zero-non-spr/zero-non-spr-vendor.mk)
-
 # Inherit from zero-common
 $(call inherit-product, device/samsung/zero-common/zero-common.mk)
