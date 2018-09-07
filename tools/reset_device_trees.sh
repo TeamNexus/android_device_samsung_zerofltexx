@@ -23,7 +23,7 @@
 
 # Arguments
 RESET_ARGS="${1}"
-BRANCH=${2:-nx-8.1}
+BRANCH=${2:-nx-9.0}
 
 CURR_PWD="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 SAM_DEVICES="$( realpath "${CURR_PWD}/../.." )"
